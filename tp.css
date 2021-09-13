@@ -1,0 +1,144 @@
+nav
+{
+	display: inline-block;
+	display: flex;
+	text-align: right;
+}
+
+nav ul
+{
+	list-style-type: none;
+}
+
+nav li
+{
+	display: inline-block;
+	margin-right: 15px;
+}
+nav a
+{
+	font-size: 1.2em;
+	color: black;
+	text-decoration: none;
+}
+nav a:hover
+{
+	color: red;
+	border-bottom: 1px solid;
+	
+	
+
+}
+.content
+{ 
+    display: flex;
+	justify-content: space-between;
+	align-items:center;
+}
+.background
+{
+	display:flex;
+	height: 500px;
+	background: url('image/tof.jpg') center center/ cover;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-content: center;
+}
+.background 
+{
+	text-align: center;
+	display: flex;
+	justify-content:center;
+	align-items:center;
+	margin: auto;
+}
+.description
+{
+	text-align: center;
+	align-items:center;
+	height: 200px;
+margin-top: 50px;    
+}   
+
+.sous-titre
+{
+color: white;
+}
+
+#affiche{
+display:flex;
+text-align:center;
+align-items:center;
+justify-content:space-around;
+margin-top:0px
+}
+
+#description{
+text-align:center;
+}
+
+#description h3{
+opacity:0.7
+}
+
+footer{
+background-color: rgb(91, 52, 158);
+color:white;
+
+}
+.icon
+{
+	display: flex;
+	justify-content:space-around;
+	 font-size: 2em;
+	 cursor: pointer;
+	 align-items: center;
+	 
+	 color: rgb(200, 192, 192);
+}
+
+.pied-page
+{
+display: flex;
+justify-content:space-around;
+vertical-align:top;
+}
+
+#indication p{
+text-align:center;
+}
+
+.pied-page h3{
+opacity: 0.7;
+}
+@media screen  and (max-width:700px ) {
+	
+
+	 
+		.pied-page
+{
+	font-size: 15px;
+display: flex;
+justify-content:space-around;
+align-items: center;
+flex-direction: column;
+}
+.icon
+{
+	font-size:3em;
+display: flex;
+justify-content:space-around;
+align-items: center;
+flex-direction: column;
+}
+#affiche
+{
+display: flex;
+flex-direction: column;
+justify-content:space-around;
+vertical-align:top;
+}
+
+
+
+}
